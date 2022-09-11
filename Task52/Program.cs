@@ -19,7 +19,7 @@ for (int j = 0; j < arr.GetLength(1); j++)
     {
         avarage = (avarage + arr[i, j]);
     }
-    avarage = avarage / 3;
+    avarage = avarage / arr.GetLength(0);
     Console.Write(Math.Round(avarage, 1) + "; ");
 }
 
